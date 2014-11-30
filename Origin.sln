@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zakharov.Origin.Web", "Zakh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zakharov.Origin.Model", "Zakharov.Origin.Model\Zakharov.Origin.Model.csproj", "{87961452-7D55-4B46-AEE7-45375161DE68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zakharov.Origin.Test", "Zakharov.Origin.Test\Zakharov.Origin.Test.csproj", "{5F27718D-5ED4-4EC7-9E4B-1ACF3A18E5D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{87961452-7D55-4B46-AEE7-45375161DE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87961452-7D55-4B46-AEE7-45375161DE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87961452-7D55-4B46-AEE7-45375161DE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F27718D-5ED4-4EC7-9E4B-1ACF3A18E5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F27718D-5ED4-4EC7-9E4B-1ACF3A18E5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F27718D-5ED4-4EC7-9E4B-1ACF3A18E5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F27718D-5ED4-4EC7-9E4B-1ACF3A18E5D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
