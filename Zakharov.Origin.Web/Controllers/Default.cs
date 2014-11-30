@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace Zakharov.Origin.Web.Controllers
 {
-    public class IndexController : Controller
+    public class DefaultController : Controller
     {
         //
         // GET: /Index/
