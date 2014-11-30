@@ -6,7 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Zakharov.Origin.Model {
-    public class Person {
+    /// <summary>
+    /// Родственник
+    /// </summary>
+    public class CPerson {
         /// <summary>Идентификатор родственника.</summary>
         [Key]
         public int Id { get; set; }
