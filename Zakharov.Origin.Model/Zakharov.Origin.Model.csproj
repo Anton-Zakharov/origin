@@ -56,6 +56,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zakharov.Utilities\Zakharov.Utilities.csproj">
+      <Project>{6d764d5c-2384-4668-9338-dac9b792c181}</Project>
+      <Name>Zakharov.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

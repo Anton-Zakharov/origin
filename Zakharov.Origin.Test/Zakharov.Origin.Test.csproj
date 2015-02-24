@@ -65,6 +65,10 @@
       <Project>{87961452-7d55-4b46-aee7-45375161de68}</Project>
       <Name>Zakharov.Origin.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Zakharov.Utilities\Zakharov.Utilities.csproj">
+      <Project>{6d764d5c-2384-4668-9338-dac9b792c181}</Project>
+      <Name>Zakharov.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

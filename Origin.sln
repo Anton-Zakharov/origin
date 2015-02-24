@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zakharov.Origin.Model", "Za
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zakharov.Origin.Test", "Zakharov.Origin.Test\Zakharov.Origin.Test.csproj", "{5F27718D-5ED4-4EC7-9E4B-1ACF3A18E5D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zakharov.Utilities", "Zakharov.Utilities\Zakharov.Utilities.csproj", "{6D764D5C-2384-4668-9338-DAC9B792C181}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5F27718D-5ED4-4EC7-9E4B-1ACF3A18E5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F27718D-5ED4-4EC7-9E4B-1ACF3A18E5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F27718D-5ED4-4EC7-9E4B-1ACF3A18E5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D764D5C-2384-4668-9338-DAC9B792C181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D764D5C-2384-4668-9338-DAC9B792C181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D764D5C-2384-4668-9338-DAC9B792C181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D764D5C-2384-4668-9338-DAC9B792C181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
