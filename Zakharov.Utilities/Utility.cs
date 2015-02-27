@@ -16,7 +16,7 @@ namespace Zakharov.Utilities {
             get {
                 if (m_sDateTime.Length >= 8) {
                     int c_iDay = 0;
-                    if (Int32.TryParse(m_sDateTime, out c_iDay))
+                    if (Int32.TryParse(m_sDateTime.Substring(6,2), out c_iDay))
                         return c_iDay;
                     else
                         return 0;
@@ -30,7 +30,13 @@ namespace Zakharov.Utilities {
         private string m_sDateTime = "";
         /// <summary>Дата и время в виде строки в формате ISO 8601</summary>
         /// <remarks>Формат представления даты и и времени ГГГГММДД нн:мм:сс.ммм</remarks>
-        public string DateTime { get; set; }
+        public string DateTime {
+            get { 
+                return m_sDateTime; }
+            set {
+                m_sDateTime = value;
+            }
+        }
         public CDateTime(int x_iYear, int x_iMonth, int x_iDay) {
             DateTime = String.Format("{0:0000}{1:00}{2:00}",x_iYear,x_iMonth,x_iDay);
         }
