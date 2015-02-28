@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zakharov.Utilities", "Zakha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zakharov.Utilities.Test", "Zakharov.Utilities.Test\Zakharov.Utilities.Test.csproj", "{EA843658-AF6C-4EC0-B45A-2DD3631CF9A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zakharov.Utilities.Console", "Zakharov.Utilities.Console\Zakharov.Utilities.Console.csproj", "{4F6F160C-D734-44A6-9478-AC79C252EFF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EA843658-AF6C-4EC0-B45A-2DD3631CF9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA843658-AF6C-4EC0-B45A-2DD3631CF9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA843658-AF6C-4EC0-B45A-2DD3631CF9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6F160C-D734-44A6-9478-AC79C252EFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6F160C-D734-44A6-9478-AC79C252EFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6F160C-D734-44A6-9478-AC79C252EFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6F160C-D734-44A6-9478-AC79C252EFF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
